@@ -1,0 +1,179 @@
+[Root]
+Most Recent Package=LMS EXECUTEABLE
+
+
+[Package|LMS EXECUTEABLE|LMS]
+Icon1="Library Management System.exe"
+Title1=LMS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|LMS EXECUTEABLE|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\LMS Setup
+
+[Package|LMS EXECUTEABLE|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=Yes
+Excel=Yes
+Exchange=Yes
+Text=Yes
+Jet 2.x=Yes
+Lotus=Yes
+Paradox=Yes
+
+[Package|LMS EXECUTEABLE|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|LMS EXECUTEABLE|Files Found]
+
+[Package|LMS EXECUTEABLE|Files Released]
+vbskfr2.CHI=
+
+[Package|LMS EXECUTEABLE|Missing Dependency Information]
+F:\WINDOWS\system32\MSEXCH35.DLL=
+F:\WINDOWS\system32\MSSTDFMT.DLL=
+F:\Program Files\Common Files\System\ado\msado20.tlb=
+F:\WINDOWS\system32\VSFLEX3.OCX=
+
+[Package|LMS EXECUTEABLE|Out-of-Date Dependency Information]
+F:\WINDOWS\system32\MSRDO20.DLL=
+F:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|LMS EXECUTEABLE|Files Added]
+
+[Package|LMS EXECUTEABLE|Files Removed]
+
+[Package|LMS EXECUTEABLE|Files In Project]
+F:\WINDOWS\system32\msvbvm60.dll=Yes
+F:\WINDOWS\system32\oleaut32.dll=Yes
+F:\WINDOWS\system32\olepro32.dll=Yes
+F:\WINDOWS\system32\asycfilt.dll=Yes
+F:\WINDOWS\system32\stdole2.tlb=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\WINDOWS\system32\DBGRID32.OCX=Yes
+F:\WINDOWS\system32\DBLIST32.OCX=Yes
+F:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+F:\WINDOWS\system32\MSJET35.DLL=Yes
+F:\WINDOWS\system32\MSJTER35.DLL=Yes
+F:\WINDOWS\system32\MSJINT35.DLL=Yes
+F:\WINDOWS\system32\vbajet32.dll=Yes
+F:\WINDOWS\system32\expsrv.dll=Yes
+F:\WINDOWS\system32\MSRD2X35.DLL=Yes
+F:\WINDOWS\system32\MSREPL35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+F:\WINDOWS\system32\VB5DB.DLL=Yes
+F:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+F:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+F:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+F:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+F:\WINDOWS\system32\MSBIND.DLL=Yes
+F:\WINDOWS\system32\MSDATGRD.OCX=Yes
+F:\WINDOWS\system32\MSMASK32.OCX=Yes
+F:\WINDOWS\system32\MSEXCL35.DLL=Yes
+F:\WINDOWS\system32\MSEXCH35.DLL=Yes
+F:\WINDOWS\system32\MSLTUS35.DLL=Yes
+F:\WINDOWS\system32\MSRDO20.DLL=Yes
+F:\WINDOWS\system32\RDOCURS.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+F:\WINDOWS\system32\MSPDOX35.DLL=Yes
+F:\WINDOWS\system32\MSTEXT35.DLL=Yes
+F:\WINDOWS\system32\MSXBSE35.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\WINDOWS\system32\VSFLEX3.OCX=Yes
+F:\WINDOWS\system32\comdlg32.ocx=Yes
+D:\Library Management System\Library Management System.exe=Yes
+
+[Package|LMS EXECUTEABLE|Configure Registry Files]
+Applicable=No
+
+[Package|LMS EXECUTEABLE|Configure Remote Servers]
+Applicable=No
+
+[Package|LMS EXECUTEABLE|Install Locations]
+D:\CIE07May\Library Management System\Library Management System.exe=$(AppPath)
+F:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\DBGRID32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+F:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+F:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+F:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+F:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+F:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\MSEXCL35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSEXCH35.DLL=$(WinSysPath)
+F:\WINDOWS\system32\MSLTUS35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+F:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+F:\WINDOWS\system32\MSPDOX35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSTEXT35.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSXBSE35.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Program Files\vbSkinner Free 2\vbskfr2.ocx=$(AppPath)
+F:\Program Files\vbSkinner Free 2\vbskfr2.chm=$(AppPath)
+F:\WINDOWS\system32\hhctrl.ocx=$(WinSysPath)
+F:\WINDOWS\system32\itss.dll=$(WinSysPath)
+F:\WINDOWS\system32\itircl.dll=$(WinSysPath)
+F:\WINDOWS\system32\HH.EXE=$(WinSysPath)
+F:\WINDOWS\system32\VSFLEX3.OCX=$(WinSysPath)
+F:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\Library Management System\Library Management System.exe=$(AppPath)
+
+[Package|LMS EXECUTEABLE|Configure Shared Files]
+Applicable=Yes
+D:\CIE07May\Library Management System\Library Management System.exe=No
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+F:\Program Files\vbSkinner Free 2\vbskfr2.ocx=No
+F:\Program Files\vbSkinner Free 2\vbskfr2.chm=No
+D:\Library Management System\Library Management System.exe=No
+
+[Package|LMS EXECUTEABLE|Distribution]
+Type=single
+Size=1.44 MB
+Title=LIBRARY MANAGEMENT SYSTEM
+
+[Package|LMS EXECUTEABLE|Package]
+PackageFolder=D:\LMS Setup
+ProjectFolder=D:\Library Management System
+ServerSideCab=
+File1=D:\LMS Setup\setup.exe
+File2=D:\LMS Setup\Setup.Lst
+File3=D:\LMS Setup\Library Management System.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|LMS EXECUTEABLE|IconGroups]
+Group0=L M S
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|LMS EXECUTEABLE|L M S]
+Icon1="Library Management System.exe"
+Title1=Library Management System
+StartIn1=$(AppPath)
+Key1=Icon1

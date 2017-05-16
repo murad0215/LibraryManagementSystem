@@ -1,0 +1,10 @@
+Line 288: Class MSDBCtls.DBCombo of control cmbbid was not a loaded control class.
+Line 310: Class MSDBGrid.DBGrid of control bgrid was not a loaded control class.
+Line 289: The property name Bindings in cmbbid is invalid.
+Line 295: The property name _ExtentX in cmbbid is invalid.
+Line 296: The property name _ExtentY in cmbbid is invalid.
+Line 297: The property name _Version in cmbbid is invalid.
+Line 298: The property name ListField in cmbbid is invalid.
+Line 299: The property name Text in cmbbid is invalid.
+Line 311: The property name Bindings in bgrid is invalid.
+Line 314: The property name OleObjectBlob in bgrid is invalid.
